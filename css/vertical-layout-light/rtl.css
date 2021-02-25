@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import "font.css";
+body {
+  direction: rtl;
+  font-family: irs !important;
+  font-style: normal;
+  font-weight: 200;
+}
+.footer{
+  font-family: irs !important;
+  font-style: normal;
+  font-weight: 200;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown {
+  position: absolute;
+  font-size: 0.9rem;
+  margin-top: 0;
+  right: auto;
+  left: 0;
+  top: 70px;
+}
+.sidebar {
+  font-family: irs !important;
+  font-style: normal;
+  font-weight: 200;
+}
+.nav {
+  padding-right: 0 !important;
+}
+.sidebar .nav.sub-menu .nav-item::before {
+  background-color: transparent !important;
+}
+.ltr {
+  direction: ltr;
+}
+.sidebar-fixed {
+position: relative;
+}
+.settings-panel .settings-heading{
+  text-align: right;
+}
